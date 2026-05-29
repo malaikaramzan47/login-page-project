@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Login Page </title>
+ <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: navy;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    form {
+        background-color: white;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 340px;
+        min-height: 450px;
+        margin: 0;
+    }
+    
+    h2 {
+        text-align: center;
+        color: black;
+    }
+    div {
+        margin: 10px;
+        border-radius: 5px;
+    }
+    button {
+        display: block;
+        margin: 20px auto 0;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        background-color: green;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    button:hover {
+        background-color: lightseagreen;
+    }
+    input {
+        width: 90%;
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+    input:focus {
+        outline: none;
+        border-color: green;
+        box-shadow: 0 0 5px rgba(0, 128, 0, 0.3);
+    }
+    label {
+        font-weight: bold;
+        color: #333;
+        display: block;
+        margin-top: 10px;
+    }
+    p {
+        text-align: center;
+        font-size: 14px;
+        color: black;
+    }
+    a {
+        color: green;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    
+ </style>   
+</head>
+
+<body>
+    <div>
+    <form>
+        <h2> Sign Up</h2>
+        <p> It's free and only takes a minute</p>
+        <label>First Name</label>
+        <input type="text" id="First Name" placeholder="Enter First Name"><br>
+        <label>Last Name</label>
+        <input type="text" id="Last Name" placeholder="Enter Last Name"><br>
+        <label>Email</label>
+        <input type="email" id="email" placeholder="Enter your email"><br>
+        <label>Password</label>
+        <input type="password" id="password" placeholder="Enter your Password"><br>
+        <label>Confirm Password</label>
+        <input type="password" id="confirm-password" placeholder="Enter your Password to confirm"><br>
+        <button type="submit">Sign Up</button>
+        <p>By clicking the sign up button, you agree to our</p>
+        <p><a href="#"> Terms and Conditions</a>  and  <a href="#"> Privacy Policy</a></p>
+    </form>
+        <p> Already have an account  <a href="#"> Login here </a></p>
+    </div>
+    <div>
+    <form>
+        <h2> Login</h2>
+        <label>Email</label><br>
+        <input type="email" id="email" placeholder="Enter your email"><br><br>
+        <label>Password</label><br>
+        <input type="password" id="password" placeholder="Enter your Password"><br><br>
+        <button type="submit">Submit</button><br><br>
+    </form>
+        <p> Don't have an account? <a href="#"> Sign up here</a></p>
+    </div>
+</body>  
+</html>
